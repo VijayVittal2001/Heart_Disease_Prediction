@@ -1,10 +1,4 @@
 **# Heart_Disease_Prediction**
 This project uses a machine learning pipeline to predict the presence of heart disease in patients based on clinical features. The model is built using Python with popular data science libraries like Pandas, Scikit-learn, Seaborn, and Matplotlib, and is trained on the publicly available heart.csv dataset.
 
-The dataset contains clinical information of patients, including.
-age, sex, cp (chest pain type)
-trestbps (resting blood pressure)
-chol (cholesterol level)
-fbs (fasting blood sugar)
-restecg, thalach, exang, oldpeak, slope, ca, thal
-target (0 = No heart disease, 1 = Heart disease)
+This heart disease dataset is used to predict whether a patient is likely to develop heart disease based on various medical attributes. It contains 14 columns of clinical data for each patient. The age column represents the patient’s age in years, and sex denotes gender (1 for male, 0 for female). cp indicates chest pain type (0–3), describing the nature and severity of the chest pain. trestbps is the resting blood pressure (in mm Hg), and chol represents serum cholesterol levels (in mg/dl). The fbs column shows whether fasting blood sugar is greater than 120 mg/dl (1 = true, 0 = false). restecg gives results of resting electrocardiographic tests, while thalach captures the maximum heart rate achieved during exercise. exang indicates whether the patient experienced exercise-induced angina, and oldpeak refers to ST depression induced by exercise relative to rest. The slope describes the trend of the ST segment during peak exercise (0 = upsloping, 1 = flat, 2 = downsloping). ca records the number of major vessels (0–3) colored by fluoroscopy, and thal describes thalassemia conditions (e.g., normal, fixed defect, reversible defect). The target variable, target, is binary—1 indicates the presence of heart disease, and 0 indicates its absence. This dataset is ideal for binary classification tasks and is widely used in healthcare analytics to support early diagnosis and preventive treatment through machine learning models.
